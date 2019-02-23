@@ -293,8 +293,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 68
-        y: 336.07812
+        x: 62
+        y: 353.07812
         width: 184
         height: 32
       isBreakpoint: 0
@@ -446,8 +446,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 319.76562
-        y: 362.98438
+        x: 313.76562
+        y: 379.98438
         width: 117
         height: 32
       isBreakpoint: 0
@@ -518,8 +518,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 71.50781
-        y: 398.34375
+        x: 65.50781
+        y: 415.34375
         width: 199
         height: 32
       isBreakpoint: 0
@@ -605,7 +605,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 65.359375
+        x: 97.359375
         y: 114.09375
         width: 104
         height: 32
@@ -690,7 +690,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 55
+        x: 87
         y: 193.96875
         width: 141
         height: 48
@@ -821,7 +821,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 313.08594
+        x: 345.08594
         y: 200.1875
         width: 100
         height: 32
@@ -942,7 +942,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
