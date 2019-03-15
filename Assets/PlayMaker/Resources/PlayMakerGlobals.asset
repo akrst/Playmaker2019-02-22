@@ -35,3 +35,5 @@ MonoBehaviour:
   - MaterialChange
   - StartWalking
   - StartAnimation
+  - ChangeTextureEvent
+  - ChangeSkybox
