@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: TexUnlitNormalExtrusion+DistanceCircle
-  m_Shader: {fileID: 4800000, guid: a497c1a216487bd43a2f9971f6cfb0c0, type: 3}
+  m_Shader: {fileID: 4800000, guid: 46470755fdece9444b4e1f17267ece2e, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -39,7 +39,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b2a6ff02a8600a847a367d7dfa531602, type: 3}
+        m_Texture: {fileID: 8400000, guid: 3b63f40084bf758439e82782efa1efad, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -52,6 +52,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex001:
+        m_Texture: {fileID: 8400000, guid: 3b63f40084bf758439e82782efa1efad, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex002:
+        m_Texture: {fileID: 2800000, guid: 158dc2f8ab3e37446b2f9f0264ee38b0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -70,11 +78,14 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _Repeat: 1
+    - _Seam: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _Speed: 1
     - _SrcBlend: 1
     - _UVSec: 0
+    - _Width: 10
     - _ZWrite: 1
     - __dirty: 1
     m_Colors:

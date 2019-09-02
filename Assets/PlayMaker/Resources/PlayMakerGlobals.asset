@@ -31,7 +31,11 @@ MonoBehaviour:
     - 
     variableCategoryIDs: 
   events:
-  - SetArrayComplete
   - MaterialChange
   - StartWalking
   - StartAnimation
+  - ChangeSkybox
+  - SetArrayComplete
+  - Global_TriggerPressDown_R
+  - Global_TriggerPressUp_R
+  - Dragging
