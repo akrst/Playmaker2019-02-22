@@ -1,0 +1,39 @@
+# MTL Exporter v1.0 by Seungwoo Oh at CLO - Virtual Fashion Inc.
+newmtl HighNeck_FRONT_471236
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ns 2.000000
+illum 2
+d 1.000000
+map_Ka C:/Users/akira/AppData/Local/CLO/Marvelous Designer 8 Personal/14236/1061/Bitmap2Material_3_Base_ColorBitmap2Material_3.jpg
+map_Kd C:/Users/akira/AppData/Local/CLO/Marvelous Designer 8 Personal/14236/1061/Bitmap2Material_3_Base_ColorBitmap2Material_3.jpg
+newmtl Waist Belt_FRONT_471225
+Ka 0.257132 0.257132 0.257132
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ns 28.763239
+illum 2
+d 1.000000
+map_Ka C:/Users/akira/AppData/Local/CLO/Marvelous Designer 8 Personal/14236/1061/Bitmap2Material_3_Base_ColorBitmap2Material_3.jpg
+map_Kd C:/Users/akira/AppData/Local/CLO/Marvelous Designer 8 Personal/14236/1061/Bitmap2Material_3_Base_ColorBitmap2Material_3.jpg
+map_Bump C:/Users/Public/Documents/MarvelousDesigner/Assets_ver_4.2.293/Materials/Fabric_Normal_Map/Polyester/Polyester_Taffeta_FCL2PSP002_NORMAL.jpg
+newmtl Front/Back_FRONT_471217
+Ka 0.257132 0.257132 0.257132
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ns 28.763239
+illum 2
+d 1.000000
+map_Ka C:/Users/akira/AppData/Local/CLO/Marvelous Designer 8 Personal/14236/1061/Bitmap2Material_3_Base_ColorBitmap2Material_3.jpg
+map_Kd C:/Users/akira/AppData/Local/CLO/Marvelous Designer 8 Personal/14236/1061/Bitmap2Material_3_Base_ColorBitmap2Material_3.jpg
+map_Bump C:/Users/Public/Documents/MarvelousDesigner/Assets_ver_4.2.293/Materials/Fabric_Normal_Map/Polyester/Polyester_Taffeta_FCL2PSP002_NORMAL.jpg
+newmtl Pocket_FRONT_471231
+Ka 0.257132 0.257132 0.257132
+Kd 1.000000 1.000000 1.000000
+Ks 0.075000 0.075000 0.075000
+Ns 28.763239
+illum 2
+d 1.000000
+map_Ka C:/Users/akira/AppData/Local/CLO/Marvelous Designer 8 Personal/14236/1061/Bitmap2Material_3_Base_ColorBitmap2Material_3.jpg
+map_Kd C:/Users/akira/AppData/Local/CLO/Marvelous Designer 8 Personal/14236/1061/Bitmap2Material_3_Base_ColorBitmap2Material_3.jpg
