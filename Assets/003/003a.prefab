@@ -354,7 +354,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4834549184268896}
   - component: {fileID: 114256817888738466}
-  - component: {fileID: 114295434392653212}
+  - component: {fileID: 114572653175246644}
   - component: {fileID: 95508735299585236}
   - component: {fileID: 114306205099024824}
   - component: {fileID: 114828051246048268}
@@ -4835,7 +4835,7 @@ Transform:
   m_Father: {fileID: 4690433663989838}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!90 &90797888278252820
+--- !u!90 &90720382668169178
 Avatar:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -7145,7 +7145,7 @@ Animator:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1105136406664968}
   m_Enabled: 1
-  m_Avatar: {fileID: 90797888278252820}
+  m_Avatar: {fileID: 90720382668169178}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
@@ -7154,6 +7154,31 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114011990200428308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63b589176a34b344b9ccbee2b7e7114a, type: 3}
+  m_Name: Meta
+  m_EditorClassIdentifier: 
+  ExporterVersion: UniVRM-0.44
+  Title: 
+  Version: 
+  Author: 
+  ContactInformation: 
+  Reference: 
+  Thumbnail: {fileID: 2800000, guid: c1cfc7129a324124bb104783794484d3, type: 3}
+  AllowedUser: 0
+  ViolentUssage: 0
+  SexualUssage: 0
+  CommercialUssage: 0
+  OtherPermissionUrl: 
+  LicenseType: 0
+  OtherLicenseUrl: 
 --- !u!114 &114059526210962300
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7471,20 +7496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 690ea0146224b8b4694a1925dddeb352, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Meta: {fileID: 114891069448600906}
---- !u!114 &114295434392653212
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1105136406664968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Avatar: {fileID: 90797888278252820}
-  Description: {fileID: 114547622166110142}
+  Meta: {fileID: 114011990200428308}
 --- !u!114 &114299316485286476
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7623,7 +7635,7 @@ MonoBehaviour:
   - Offset: {x: -0.00022975789, y: 0.10129058, z: -0.0126941595}
     Radius: 0.10104098
   m_gizmoColor: {r: 1, g: 0, b: 1, a: 1}
---- !u!114 &114547622166110142
+--- !u!114 &114549336265617232
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -8021,6 +8033,19 @@ MonoBehaviour:
     max: {x: 0, y: 0, z: 0}
     center: {x: 0, y: 0, z: 0}
     axisLength: 0
+--- !u!114 &114572653175246644
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1105136406664968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3869812175467a143ab9cd865752b4a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Avatar: {fileID: 90720382668169178}
+  Description: {fileID: 114549336265617232}
 --- !u!114 &114639567513197686
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8455,31 +8480,6 @@ MonoBehaviour:
   - {fileID: 114742922399077148}
   - {fileID: 114315379531593964}
   - {fileID: 114811980156289696}
---- !u!114 &114891069448600906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63b589176a34b344b9ccbee2b7e7114a, type: 3}
-  m_Name: Meta
-  m_EditorClassIdentifier: 
-  ExporterVersion: UniVRM-0.44
-  Title: 
-  Version: 
-  Author: 
-  ContactInformation: 
-  Reference: 
-  Thumbnail: {fileID: 2800000, guid: c1cfc7129a324124bb104783794484d3, type: 3}
-  AllowedUser: 0
-  ViolentUssage: 0
-  SexualUssage: 0
-  CommercialUssage: 0
-  OtherPermissionUrl: 
-  LicenseType: 0
-  OtherLicenseUrl: 
 --- !u!114 &114894533903203608
 MonoBehaviour:
   m_ObjectHideFlags: 1
